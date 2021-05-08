@@ -3,7 +3,9 @@ import React from 'react'
 const footer = () => {
     return (
         <>
-            <div>Footer</div>
+            <div>
+                insert Ads
+            </div>
         </>
     )
 }
