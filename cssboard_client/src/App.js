@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, MenuBar } from './component'
+import { Title, MenuBar, Content } from './component'
 
 const App = () => {
     return (
@@ -10,7 +10,9 @@ const App = () => {
             <div>
                 <MenuBar />
             </div>
-            <div>content</div>
+            <div>
+                <Content />
+            </div>
             <div>footer</div>
         </>
     )
