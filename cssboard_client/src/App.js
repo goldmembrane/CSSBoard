@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, MenuBar, Content } from './component'
+import { Title, MenuBar, Content, Footer } from './component'
 
 const App = () => {
     return (
@@ -13,7 +13,7 @@ const App = () => {
             <div>
                 <Content />
             </div>
-            <div>footer</div>
+            <div><Footer /></div>
         </>
     )
 }
