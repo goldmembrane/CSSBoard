@@ -1,11 +1,14 @@
 import React from 'react'
-import { Title, MenuBar, Content, Footer } from './component'
+import { Title, MenuBar, Content, Footer, Login } from './component'
 
 const App = () => {
     return (
         <>
             <div>
                 <Title />
+            </div>
+            <div>
+                <Login />
             </div>
             <div>
                 <MenuBar />
