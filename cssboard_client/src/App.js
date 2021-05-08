@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title } from './component'
+import { Title, MenuBar } from './component'
 
 const App = () => {
     return (
@@ -7,7 +7,9 @@ const App = () => {
             <div>
                 <Title />
             </div>
-            <div>menu bar</div>
+            <div>
+                <MenuBar />
+            </div>
             <div>content</div>
             <div>footer</div>
         </>
